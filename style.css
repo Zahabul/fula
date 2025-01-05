@@ -26,11 +26,19 @@ img {
     height: auto;
 }
 
-h1, h2, h3, h4, h5, h6, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
     font-family: "Poppins", serif;
 }
 
-a { text-decoration: none; }
+a {
+    text-decoration: none;
+}
 
 .btn {
     padding: 10px 30px !important;
@@ -42,9 +50,18 @@ a { text-decoration: none; }
     cursor: pointer;
 }
 
+.btn:hover {
+    background: transparent;
+    color: #fb8133;
+}
+
 .btn.btn-rgb {
     background: rgba(220, 220, 220, 0.2);
     border: 1px solid transparent;
+}
+
+.btn.btn-rgb:hover {
+    border: 1px solid #fb8133;
 }
 
 /* HEADER AREA STYLE
@@ -77,6 +94,7 @@ a { text-decoration: none; }
     flex-direction: row;
     gap: 30px;
 }
+
 .menu li {}
 
 .menu li a {
@@ -91,7 +109,8 @@ a { text-decoration: none; }
     padding: 8px 0;
 }
 
-.menu li a:hover:before, .menu li a.active:before {
+.menu li a:hover:before,
+.menu li a.active:before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -110,7 +129,8 @@ a { text-decoration: none; }
     background-position: center 0;
     background-repeat: no-repeat;
     position: relative;
-     clip-path: ellipse(100% 55% at 48% 44%);
+    -webkit-clip-path: ellipse(100% 55% at 48% 44%);
+    clip-path: ellipse(100% 55% at 48% 44%);
 }
 
 .hero-area::before {
