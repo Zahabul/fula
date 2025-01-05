@@ -120,6 +120,9 @@ a {
     background: #fb8133;
 }
 
+.menu li a.btn:before {
+    background: transparent !important
+}
 
 /* HERO AREA STYLE
 ========================================================================*/
