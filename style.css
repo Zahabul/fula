@@ -48,6 +48,7 @@ a {
     border-radius: 30px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn:hover {
@@ -107,6 +108,7 @@ a {
     letter-spacing: 1px;
     position: relative;
     padding: 8px 0;
+    transition: all 0.3s ease;
 }
 
 .menu li a:hover:before,
